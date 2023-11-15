@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Anton&family=Dancing+Script:wght@700&family=Josefin+Sans:ital,wght@1,500;1,700&family=Kanit&family=Lilita+One&family=Nosifer&family=Orbitron:wght@500&family=Oswald:wght@500&family=Phudu:wght@400;800&family=Pixelify+Sans:wght@500&family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Roboto+Condensed&family=Ubuntu:ital,wght@0,700;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #40405e;
+}
+.clock{
+    position: relative;
+    color: white;
+    background: -webkit-linear-gradient(90deg, #5c5784, #5fd4ff);
+    width: 740px;
+    padding: 20px 45px;
+    box-shadow: 0 5px 25px rgb(14, 21, 37, 0.8);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6.5rem;
+    font-weight: 600;
+}
